@@ -1,4 +1,4 @@
-# SourceCred Template Instance
+# TEC SourceCred ( From Template Instance )
 
 This repository contains a template for running a SourceCred instance.
 
