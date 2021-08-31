@@ -7,7 +7,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "sourcecred": "^0.9.1"
+    "sourcecred": "^0.9.1",
+    "tar": "^6.1.2",
+    "trim": "^0.0.3",
+    "underscore": "^1.12.1"
   },
   "scripts": {
     "clean": "rimraf cache site",
