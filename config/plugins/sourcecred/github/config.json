@@ -1,1 +1,27 @@
-{"repositories": ["TECommons/coordination", "TECommons/tec-template", "TECommons/tec-convert", "TECommons/tec-interface"]}
+{"repositories": [
+    "CommonsBuild/coordination", 
+    "CommonsBuild/tec-template",
+    "CommonsBuild/tec-convert", 
+    "CommonsBuild/tec-interface",
+    "CommonsBuild/commons-config-frontend",
+    "CommonsBuild/commons-config-backend",
+    "CommonsBuild/Gravity",
+    "CommonsBuild/proposal-inverter",
+    "CommonsBuild/test-issues-config-dashboard",
+    "CommonsBuild/tec-web",
+    "CommonsBuild/protocol-Info",
+    "CommonsBuild/commons-config-dashboard",
+    "CommonsBuild/IH-intervention",
+    "CommonsBuild/commons-config-website",
+    "CommonsBuild/praiseanalysis",
+    "CommonsBuild/tec-branding-assets",
+    "CommonsBuild/TokenLog-SoftGov",
+    "CommonsBuild/tec-info",
+    "CommonsBuild/augmented-bonding-curve-model",
+    "CommonsBuild/panel-app-heroku",
+    "CommonsBuild/content-distribution",
+    "CommonsBuild/FundraisingModel",
+    "CommonsBuild/revenue-sharing",
+    "CommonsBuild/TEC-Hatch-Vote",
+    "CommonsBuild/Token-Log-Hatch-Params"
+]}
