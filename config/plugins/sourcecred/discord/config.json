@@ -1,25 +1,20 @@
 [
   {
     "channelWeightConfig": {
-      "defaultWeight": 1,
-      "weights": {
-      }
+      "defaultWeight": 0,
+      "weights": {}
     },
     "guildId": "701149241107808327",
     "includeNsfwChannels": false,
-    "propsChannels": [
-    ],
+    "propsChannels": [],
     "reactionWeightConfig": {
       "applyAveraging": false,
-      "defaultWeight": 1,
-      "weights": {
-        "👍": 1
-      }
+      "defaultWeight": 0,
+      "weights": {}
     },
     "roleWeightConfig": {
-      "defaultWeight": 1,
-      "weights": {
-      }
+      "defaultWeight": 0,
+      "weights": {}
     }
   }
 ]
