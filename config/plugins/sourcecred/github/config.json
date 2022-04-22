@@ -1,7 +1,8 @@
-{"repositories": [
-    "CommonsBuild/coordination", 
+{
+  "repositories": [
+    "CommonsBuild/coordination",
     "CommonsBuild/tec-template",
-    "CommonsBuild/tec-convert", 
+    "CommonsBuild/tec-convert",
     "CommonsBuild/tec-interface",
     "CommonsBuild/commons-config-frontend",
     "CommonsBuild/commons-config-backend",
@@ -23,5 +24,9 @@
     "CommonsBuild/FundraisingModel",
     "CommonsBuild/revenue-sharing",
     "CommonsBuild/TEC-Hatch-Vote",
-    "CommonsBuild/Token-Log-Hatch-Params"
-]}
+    "CommonsBuild/Token-Log-Hatch-Params",
+    "CommonsSwarm/tec-convert",
+    "CommonsSwarm/commons-upgrade",
+    "CommonsSwarm/augmented-bonding-curve"
+  ]
+}
