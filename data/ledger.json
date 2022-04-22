@@ -8688,3 +8688,13 @@
 {"action":{"alias":{"address":"N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000965843108128514128\u0000","description":"discord/Volker#6892"},"identityId":"qHXv1kZdjTByix3kaflMyA","type":"ADD_ALIAS"},"ledgerTimestamp":1650647025459,"uuid":"UXYdbTKGd3FwzBtjhkgiJw","version":"1"}
 {"action":{"identity":{"address":"N\u0000sourcecred\u0000core\u0000IDENTITY\u0000xSN79iK90oTEv8bUz1pg5A\u0000","aliases":[],"id":"xSN79iK90oTEv8bUz1pg5A","name":"Saiba","subtype":"USER"},"type":"CREATE_IDENTITY"},"ledgerTimestamp":1650647025459,"uuid":"KJVMQgwsyNczxnSBs5WXug","version":"1"}
 {"action":{"alias":{"address":"N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000966527376454479873\u0000","description":"discord/Saiba#4751"},"identityId":"xSN79iK90oTEv8bUz1pg5A","type":"ADD_ALIAS"},"ledgerTimestamp":1650647025459,"uuid":"YeBA9cRNu0KAtakeIdvLmA","version":"1"}
+{"action":{"identityId":"LEw4ujPRRRn6HZabOodtJw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1650652864521,"uuid":"RLWDU5gtNCnRaM1o3NT9Pw","version":"1"}
+{"action":{"identityId":"IgK3W3Anb1L9G9adtLHgcw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1650652869831,"uuid":"WAXhQF1KlUjPd83jGbRk8A","version":"1"}
+{"action":{"identityId":"uxaTpW2sEzzncLa2Yg0Lug","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1650652873015,"uuid":"KH54XRDeWL9ZWBwoMS7ROw","version":"1"}
+{"action":{"identityId":"HwM2QuNkV9V2e4Lv1vXnTg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1650652881102,"uuid":"GarOiw04aWaJ1Npx5i4KJg","version":"1"}
+{"action":{"identityId":"OkpQE6b0YO0Z1KVFRdgL9w","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1650652900532,"uuid":"FaJh95R2HPmpPqVD2Bidyg","version":"1"}
+{"action":{"identityId":"6yuAwvYBeXtL144Afao1Dg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1650652939936,"uuid":"6FBYJNOfRxRrk1GcBwfNjQ","version":"1"}
+{"action":{"identityId":"6yuAwvYBeXtL144Afao1Dg","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1650652940708,"uuid":"FDbkqPWjSZroh9uniJNppA","version":"1"}
+{"action":{"base":"SW3QLzfLRvQkXcmy4MxMNg","target":"6yuAwvYBeXtL144Afao1Dg","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1650652956104,"uuid":"wjmMNTJ6V11VN6u8cgQEAQ","version":"1"}
+{"action":{"identity":{"address":"N\u0000sourcecred\u0000core\u0000IDENTITY\u0000gGkT7z1v8LkvltABhLvPig\u0000","aliases":[],"id":"gGkT7z1v8LkvltABhLvPig","name":"german","subtype":"USER"},"type":"CREATE_IDENTITY"},"ledgerTimestamp":1650653377170,"uuid":"nGxt1Xe8kxeWqiKyf8qoVA","version":"1"}
+{"action":{"alias":{"address":"N\u0000sourcecred\u0000discord\u0000MEMBER\u0000user\u0000705979754494427156\u0000","description":"discord/german#9594"},"identityId":"gGkT7z1v8LkvltABhLvPig","type":"ADD_ALIAS"},"ledgerTimestamp":1650653377170,"uuid":"6njoMzkNKjXDxQbuy8wxTQ","version":"1"}
