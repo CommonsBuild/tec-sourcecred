@@ -42,9 +42,6 @@
     "CommonsBuild/tec-branding-assets",
     "CommonsBuild/commons-config-proposals",
     "CommonsBuild/labs-medium-scraper",
-    "CommonsBuild/tecmns",
-    "CommonsSwarm/tec-convert",
-    "CommonsSwarm/commons-upgrade",
-    "CommonsSwarm/augmented-bonding-curve"
+    "CommonsBuild/tecmns"
   ]
 }
