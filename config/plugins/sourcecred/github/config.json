@@ -28,7 +28,6 @@
     "CommonsBuild/praise",
     "CommonsBuild/tec-sourcecred",
     "CommonsBuild/tec-rewards",
-    "CommonsBuild/tec-handbook",
     "CommonsBuild/onboarding-bot",
     "CommonsBuild/praise_RewardAnalysis",
     "CommonsBuild/pollen-onboarding",
@@ -42,6 +41,9 @@
     "CommonsBuild/tec-branding-assets",
     "CommonsBuild/commons-config-proposals",
     "CommonsBuild/labs-medium-scraper",
-    "CommonsBuild/tecmns"
+    "CommonsBuild/tecmns",
+    "CommonsSwarm/tec-convert",
+    "CommonsSwarm/commons-upgrade",
+    "CommonsSwarm/augmented-bonding-curve"
   ]
 }
