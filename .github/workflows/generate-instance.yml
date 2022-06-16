@@ -19,7 +19,7 @@ jobs:
       - name: Cache Data # Cache SourceCred Data, invalidating if any of the config changes or the SC version is updated
         uses: actions/cache@v2
         with:
-          path: '**/cache'
+          path: "**/cache"
           key: SC-${{ runner.os }}-V2-${{ hashFiles('**/config.json', '**/sourcecred.json', '**/yarn.lock') }}
 
       - name: Install Packages 🔧
@@ -28,6 +28,7 @@ jobs:
       - name: Load Data and Compute Cred 🧮
         run: yarn sourcecred go
         env:
+          NODE_OPTIONS: --max_old_space_size=4096
           SOURCECRED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
 

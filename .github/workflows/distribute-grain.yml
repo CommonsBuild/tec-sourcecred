@@ -23,6 +23,7 @@ jobs:
       - name: Load Data and Compute Cred 🧮
         run: yarn sourcecred go
         env:
+          NODE_OPTIONS: --max_old_space_size=4096
           SOURCECRED_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCECRED_DISCORD_TOKEN: ${{ secrets.SOURCECRED_DISCORD_TOKEN }}
 
