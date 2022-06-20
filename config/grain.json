@@ -2,7 +2,7 @@
   "allocationPolicies": [
     {
       "budget": 1000,
-      "numIntervalsLookback": 24,
+      "numIntervalsLookback": 49,
       "policyType": "BALANCED"
     }
   ],
