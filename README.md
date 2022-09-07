@@ -41,7 +41,7 @@ Generated Data:
 
 Using this instance as a starting point, you can update the config to include
 the plugins you want, pointing at the data you care about. We recommend setting up
-your instance locally first and make sure its working before pushing your changes
+your instance locally first and making sure it's working before pushing your changes
 to master and using the Github Action.
 
 1. Get [Yarn] and then run `yarn` to install SourceCred and dependencies.
@@ -91,20 +91,20 @@ Run `yarn clean-all` if the `yarn start` command fails due to a change in the co
 - `yarn grain` distributes Grain according to the current Cred scores, and the config in `config/grain.json`. 
 
 This repo also contains a GitHub action for automatically distributing grain. It will run every Sunday and create a Pull Request
-with the ledger updated with the new grain balances based on the users cred scores. The amount of grain to get distributed
+with the ledger updated with the new grain balances based on the users' cred scores. The amount of grain to get distributed
 every week can be defined in the `config/grain.json` file. There are two different policies that can be used to control
 how the grain gets distributed: 
 - `immediatePerWeek` splits the grain evenly based on everyone's Cred in the last week only.
 - `balancedPerWeek` distributes the grain consistently based on total lifetime cred scores. i.e. it balances
 the distribution of grain with the distribution of total historical cred.
 
-The balanced policy allows SourceCred to reward people retro-actively. e.g. If someone has been historically "overpaid"
+The balanced policy allows SourceCred to reward people retroactively. e.g. If someone has been historically "overpaid"
 with grain relative to their cred scores, that people will receive less grain in the balanced distribution while people
 who have been "underpaid" relative to their cred will receive more grain.
 
 In SourceCred, we distribute 15000 grain / week with the "balanced" policy and 5000 grain / week with the "immediate"
-policy. The values you use for your community depend on whether you want to optimize for more immediate short term
-action, or for long term incentive alignment, but we recommend using a blend of both.
+policy. The values you use for your community depend on whether you want to optimize for more immediate short-term
+action, or for long-term incentive alignment, but we recommend using a blend of both.
 
 ### Low-level CLI
 If you want to go deeper, you can access lower-level commands in the sourcecred CLI in the form of: `yarn sourcecred <command>`. 
